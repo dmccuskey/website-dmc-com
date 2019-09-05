@@ -38,9 +38,9 @@ Also modify the `return` value if you want the time between checks to be longer 
 
 These are the some of the pages that I started with. The instructions for script generation and auto-boot still apply. So you can still reference them for those other tasks:
 
-* http://osxdaily.com/2016/08/10/auto-connect-vpn-mac-boot-login/
-* https://www.maketecheasier.com/auto-connect-vpn-mac-startup/
+* <http://osxdaily.com/2016/08/10/auto-connect-vpn-mac-boot-login/>
+* <https://www.maketecheasier.com/auto-connect-vpn-mac-startup/>
 
 Some other tech references which helped:
-* https://www.cyberciti.biz/faq/mac-osx-applescript-run-shell-script/
+* <https://www.cyberciti.biz/faq/mac-osx-applescript-run-shell-script/>
 * ["on idle" reference](https://books.google.com/books?id=t0snCgAAQBAJ&amp;pg=PA672&amp;lpg=PA672&amp;dq=applescript+let+idle&amp;source=bl&amp;ots=feTq73ZGcD&amp;sig=p1nbgb4hxOKfWd-lCvSUJyAi2A4&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwjdpIqe-ITTAhWJeSYKHU7-C98Q6AEIGjAA#v=onepage&amp;q=applescript%20let%20idle&amp;f=false)

@@ -71,7 +71,7 @@ This was the first VPN service I tried, however at the time I didn't yet have my
 
 ## References
 
-* https://thatoneprivacysite.net/simple-vpn-comparison-chart/
-* https://www.top10vpn.com/top10-lists/
-* http://www.top10bestvpn.com/
-* https://www.bestvpn.com/best-vpn-services/
+* <https://thatoneprivacysite.net/simple-vpn-comparison-chart/>
+* <https://www.top10vpn.com/top10-lists/>
+* <http://www.top10bestvpn.com/>
+* <https://www.bestvpn.com/best-vpn-services/>
