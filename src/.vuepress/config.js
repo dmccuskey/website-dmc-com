@@ -16,7 +16,9 @@ module.exports = {
         vine: { width: 600, height: 600, embed: 'simple' },
         prezi: { width: 550, height: 400 }
       })
-    }
+    },
+    lineNumbers: false,
+    toc: { includeLevel: [1, 2] },
   },
   themeConfig: {
     repo: 'https://www.github.com/dmccuskey/website-dmc-com',
