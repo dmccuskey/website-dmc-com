@@ -8,6 +8,16 @@ const currentDateUTC = new Date().toUTCString()
 module.exports = {
   title: 'D-M-C Blog',
   dest: './dist',
+  markdown: {
+    config: md => {
+      md.use(require('markdown-it-video'), {
+        youtube: { width: 640, height: 390 },
+        vimeo: { width: 650, height: 366 },
+        vine: { width: 600, height: 600, embed: 'simple' },
+        prezi: { width: 550, height: 400 }
+      })
+    }
+  },
   themeConfig: {
     repo: 'https://www.github.com/dmccuskey/website-dmc-com',
     repoLabel: 'Github',
