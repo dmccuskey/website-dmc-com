@@ -1,4 +1,6 @@
 const currentDateUTC = new Date().toUTCString()
+const videoPlugin = require('markdown-it-video')
+
 
 /*
       { text: 'Archive', link: '/archive/' },
@@ -9,8 +11,8 @@ module.exports = {
   title: 'D-M-C Blog',
   dest: './dist',
   markdown: {
-    config: md => {
-      md.use(require('markdown-it-video'), {
+    extendMarkdown: md => {
+      md.use(videoPlugin, {
         youtube: { width: 640, height: 390 },
         vimeo: { width: 650, height: 366 },
         vine: { width: 600, height: 600, embed: 'simple' },
